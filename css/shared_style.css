@@ -9,11 +9,6 @@
     font-family: 'Poppins' !important;
 }
 
-.card{
-    background-color: white !important;
-}
-
-
 .justify-content-center-center{
     align-items: center;
     justify-content: center;
@@ -51,23 +46,22 @@ p, .label{
 
 .title .bk-word{
     display: block;
-    color: #F2F4F4 !important;
+    color: #F2F4F4;
     text-align: center;
     font-size: 8rem;
     font-weight: 700;
-    filter: invert(0);
 }
 
 .title .float-title{
-    font-size: 2rem;
-    font-weight: 700;
     position: absolute;
     top: 50%;
     left: 50%;
+
+    color: #212529;
+    font-size: 2rem;
+    font-weight: 700;
     transform: translate(-50%,-50%);
-    color: #212529 !important;
     width: 100%;
-    filter: invert(0);
 }
 
 .title .float-title::after{
